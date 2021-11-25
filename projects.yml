@@ -31,8 +31,8 @@
 - name: Square One
   url: https://squareoneforms.com
   categories:
-    - Employee Terms
-    - Independent Contractor Terms
+    - Employment
+    - Independent Contractors
 
 - name: Doormat
   url: https://doormatprivacy.com
@@ -52,7 +52,7 @@
 - name: Series Seed
   url: https://www.seriesseed.com/
   categories:
-    - Startup Financing Terms
+    - Startup Financing
   notes:
     - early-stage
 
@@ -60,7 +60,7 @@
   steward: Y Combinator
   url: https://www.ycombinator.com/documents/
   categories:
-    - Startup Financing Terms
+    - Startup Financing
   notes:
     - early-stage
 
@@ -68,46 +68,46 @@
   steward: National Venture Capital Association
   url: https://nvca.org/model-legal-documents/
   categories:
-    - Startup Financing Terms
+    - Startup Financing
   notes:
     - late-stage
 
 - name: ConsensusDocs
   url: https://www.consensusdocs.org/
   categories:
-    - Construction Contracts
+    - Construction
 
 - name: Contract Documents
   steward: American Institute of Architects
   url: https://constructiondocuments.aia.org/
   categories:
-    - Construction Contracts
+    - Construction
 
 - steward: American Trucking Associations
   url: https://www.tianet.org/
   name: Model Motor Carrier/Broker Agreements
   categories:
-    - Logistics Contracts
+    - Logistics
 
 - steward: Transportation Intermediaries Association
   name: Co-Broker Agreements
   url: https://www.tianet.org/
   categories:
-    - Logistics Contracts
+    - Logistics
 
 - name: Model Credit Agreement Provisions
   steward: Loan Syndications & Trading Association
   url: https://lsta.org
   categories:
-    - Credit Agreements
+    - Credit
 
 - name: Master Agreement
   steward: International Swaps and Derivatives Association
   url: https://isda.org
   categories:
-    - Derivatives Trading Terms
+    - Derivatives
 
 - name: Switchmode Developer Agreement
   url: https://switchmode.github.io/
   categories:
-    - Independent Contractor Terms
+    - Independent Contractors
