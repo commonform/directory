@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+SITE=directory.commonform.org
+bundler exec ./build
+scp ./index.html ./*.css "$SITE:/var/www/$SITE"
