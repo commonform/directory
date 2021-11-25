@@ -65,18 +65,18 @@
   notes:
     - early-stage
 
-- name: Simple Agreements for Future Equity
+- steward: Y Combinator
+  name: Simple Agreements for Future Equity
   public: true
-  steward: Y Combinator
   url: https://www.ycombinator.com/documents/
   categories:
     - Startup Financing
   notes:
     - early-stage
 
-- name: Model Legal Documents
+- steward: National Venture Capital Association
+  name: Model Legal Documents
   public: true
-  steward: National Venture Capital Association
   url: https://nvca.org/model-legal-documents/
   categories:
     - Startup Financing
@@ -88,8 +88,8 @@
   categories:
     - Construction
 
-- name: Contract Documents
-  steward: American Institute of Architects
+- steward: American Institute of Architects
+  name: Contract Documents
   url: https://constructiondocuments.aia.org/
   categories:
     - Construction
@@ -106,14 +106,14 @@
   categories:
     - Logistics
 
-- name: Model Credit Agreement Provisions
-  steward: Loan Syndications & Trading Association
+- steward: Loan Syndications & Trading Association
+  name: Model Credit Agreement Provisions
   url: https://lsta.org
   categories:
     - Credit
 
-- name: Master Agreement
-  steward: International Swaps and Derivatives Association
+- steward: International Swaps and Derivatives Association
+  name: Master Agreement
   url: https://isda.org
   categories:
     - Derivatives
