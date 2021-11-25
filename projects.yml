@@ -87,13 +87,13 @@
   url: https://www.tianet.org/
   name: Model Motor Carrier/Broker Agreements
   categories:
-    - Trucking Contracts
+    - Logistics Contracts
 
 - steward: Transportation Intermediaries Association
   name: Co-Broker Agreements
   url: https://www.tianet.org/
   categories:
-    - Trucking Contracts
+    - Logistics Contracts
 
 - name: Model Credit Agreement Provisions
   steward: Loan Syndications & Trading Association
