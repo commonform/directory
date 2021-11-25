@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mustache (1.1.1)
+    slugify (1.0.7)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  mustache
+  slugify
+
+BUNDLED WITH
+   2.2.21

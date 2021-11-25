@@ -1,0 +1,46 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'yaml'
+require 'mustache'
+require 'slugify'
+
+# Read projects.yml.
+data = YAML.safe_load(File.read('projects.yml'))
+
+# Index projects by categories.
+categories = []
+data.each do |project|
+  project['categories'].each do |category_name|
+    category = categories.find { |c| c['name'] == category_name }
+    if category.nil?
+      category = {
+        'name' => category_name,
+        'slug' => category_name.slugify,
+        'projects' => []
+      }
+      categories.push category
+    end
+    category['projects'].push(project)
+  end
+
+  # Format any notes for presentation.
+  project['notes'] = "(#{project['notes'].join(', ')})" if project['notes']
+end
+
+# Sort categories.
+categories.sort! do |a, b|
+  a['name'].downcase <=> b['name'].downcase
+end
+
+# Sort projects under categories.
+categories.each do |category|
+  category['projects'].sort! do |a, b|
+    a['name'].downcase <=> b['name'].downcase
+  end
+end
+
+# Write index.html.
+File.open('index.html', 'w') do |file|
+  file.write Mustache.render(File.read('template.html'), { 'categories' => categories })
+end

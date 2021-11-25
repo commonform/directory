@@ -1,0 +1,107 @@
+---
+- name: Bonterms NDA
+  url: https://bonterms.com
+  categories:
+    - Nondisclosure Agreements
+  notes:
+    - two-way
+
+- name: Guestbook NDA
+  url: https://guestbooknda.com
+  categories:
+    - Nondisclosure Agreements
+  notes:
+    - one-way
+
+- name: oneNDA
+  url: https://onenda.org
+  categories:
+    - Nondisclosure Agreements
+  notes:
+    - two-way
+
+- name: Waypoint NDA
+  url: https://waypointnda.com
+  categories:
+    - Nondisclosure Agreements
+  notes:
+    - two-way
+
+- name: Square One
+  url: https://squareoneforms.com
+  categories:
+    - Employee Terms
+    - Independent Contractor Terms
+
+- name: Doormat
+  url: https://doormatprivacy.com
+  categories:
+    - Privacy Policies
+
+- name: DMCASimple
+  url: https://dmcasimple.com
+  categories:
+    - Copyright Policies
+
+- name: Turnstile
+  url: https://turnstiletos.com
+  categories:
+    - Website Terms of Service
+
+- name: Series Seed
+  url: https://www.seriesseed.com/
+  categories:
+    - Startup Financing Terms
+  notes:
+    - early-stage
+
+- name: Simple Agreements for Future Equity
+  steward: Y Combinator
+  url: https://www.ycombinator.com/documents/
+  categories:
+    - Startup Financing Terms
+  notes:
+    - early-stage
+
+- name: Model Legal Documents
+  steward: National Venture Capital Association
+  url: https://nvca.org/model-legal-documents/
+  categories:
+    - Startup Financing Terms
+  notes:
+    - late-stage
+
+- name: ConsensusDocs
+  url: https://www.consensusdocs.org/
+  categories:
+    - Construction Contracts
+
+- name: Contract Documents
+  steward: American Institute of Architects
+  url: https://constructiondocuments.aia.org/
+  categories:
+    - Construction Contracts
+
+- steward: American Trucking Associations
+  url: https://www.tianet.org/
+  name: Model Motor Carrier/Broker Agreements
+  categories:
+    - Trucking Contracts
+
+- steward: Transportation Intermediaries Association
+  name: Co-Broker Agreements
+  url: https://www.tianet.org/
+  categories:
+    - Trucking Contracts
+
+- name: Model Credit Agreement Provisions
+  steward: Loan Syndications & Trading Association
+  url: https://lsta.org
+  categories:
+    - Credit Agreements
+
+- name: Master Agreement
+  steward: International Swaps and Derivatives Association
+  url: https://isda.org
+  categories:
+    - Derivatives Trading Terms

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Common Form Directory</title>
+  <link href="normalize.css" rel="stylesheet">
+  <link href="https://commonform.org/fonts.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <header role="banner">
+    <img alt="Common Form Logo" src="https://commonform.org/logo.svg">
+    <h1>Common Form Directory</h1>
+    <p>open legal terms project</p>
+  </header>
+  <main role="main">
+    {{#categories}}
+    <h2 id="{{slug}}">{{name}}</h2>
+    <ul>
+      {{#projects}}
+      <li>
+        {{steward}}
+        <a href="{{url}}">{{name}}</a>
+        {{#notes}}{{.}}{{/notes}}
+      </li>
+      {{/projects}}
+    </ul>
+    {{/categories}}
+  </main>
+  <footer role="contentinfo">
+    <a href="https://github.com/commonform/directory">Website code on GitHub</a>
+  </footer>
+</body>
+</html>
