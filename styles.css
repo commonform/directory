@@ -9,7 +9,7 @@ nav[role=navigation],
 main[role=main],
 footer[role=contentinfo] {
   margin: 1rem auto;
-  max-width: 33rem;
+  max-width: 80vw;
 }
 
 header[role=banner] {
@@ -22,6 +22,18 @@ header[role=banner] img {
 
 header[role=banner] h1,
 header[role=banner] p {
+  margin: 0;
+}
+
+main[role=main] {
+  column-width: 13rem;
+}
+
+section {
+  break-inside: avoid-column;
+}
+
+section h2 {
   margin: 0;
 }
 

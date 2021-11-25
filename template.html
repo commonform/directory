@@ -16,16 +16,18 @@
   </header>
   <main role="main">
     {{#categories}}
-    <h2 id="{{slug}}">{{name}}</h2>
-    <ul>
-      {{#projects}}
-      <li>
-        {{steward}}
-        <a href="{{url}}">{{name}}</a>
-        {{#notes}}{{.}}{{/notes}}
-      </li>
-      {{/projects}}
-    </ul>
+    <section>
+      <h2 id="{{slug}}">{{name}}</h2>
+      <ul>
+        {{#projects}}
+        <li>
+          {{steward}}
+          <a href="{{url}}">{{name}}</a>
+          {{#notes}}{{.}}{{/notes}}
+        </li>
+        {{/projects}}
+      </ul>
+    </section>
     {{/categories}}
   </main>
   <footer role="contentinfo">
