@@ -8,7 +8,7 @@ header[role=banner],
 nav[role=navigation],
 main[role=main],
 footer[role=contentinfo] {
-  margin: 1rem auto;
+  margin: 2rem auto;
   max-width: 80vw;
 }
 
