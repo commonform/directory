@@ -2,6 +2,7 @@
 
 - name: Bonterms NDA
   url: https://bonterms.com
+  public: true
   categories:
     - Nondisclosure Agreements
   notes:
@@ -9,6 +10,7 @@
 
 - name: Guestbook NDA
   url: https://guestbooknda.com
+  public: true
   categories:
     - Nondisclosure Agreements
   notes:
@@ -16,12 +18,14 @@
 
 - name: oneNDA
   url: https://onenda.org
+  public: true
   categories:
     - Nondisclosure Agreements
   notes:
     - two-way
 
 - name: Waypoint NDA
+  public: true
   url: https://waypointnda.com
   categories:
     - Nondisclosure Agreements
@@ -29,27 +33,32 @@
     - two-way
 
 - name: Square One
+  public: true
   url: https://squareoneforms.com
   categories:
     - Employment
     - Independent Contractors
 
 - name: Doormat
+  public: true
   url: https://doormatprivacy.com
   categories:
     - Privacy Policies
 
 - name: DMCASimple
+  public: true
   url: https://dmcasimple.com
   categories:
     - Copyright Policies
 
 - name: Turnstile
+  public: true
   url: https://turnstiletos.com
   categories:
     - Website Terms of Service
 
 - name: Series Seed
+  public: true
   url: https://www.seriesseed.com/
   categories:
     - Startup Financing
@@ -57,6 +66,7 @@
     - early-stage
 
 - name: Simple Agreements for Future Equity
+  public: true
   steward: Y Combinator
   url: https://www.ycombinator.com/documents/
   categories:
@@ -65,6 +75,7 @@
     - early-stage
 
 - name: Model Legal Documents
+  public: true
   steward: National Venture Capital Association
   url: https://nvca.org/model-legal-documents/
   categories:
@@ -108,6 +119,7 @@
     - Derivatives
 
 - name: Switchmode Developer Agreement
+  public: true
   url: https://switchmode.github.io/
   categories:
     - Independent Contractors

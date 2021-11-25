@@ -31,10 +31,21 @@ main[role=main] {
 
 section {
   break-inside: avoid-column;
+  margin: 0 0 2rem 0;
 }
 
 section h2 {
   margin: 0;
+}
+
+main[role=main] ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+main[role=main] ul li {
+  margin: 0.5rem 0;
 }
 
 footer[role=contentinfo] {
